@@ -14,4 +14,4 @@ Yes i have, i have worked with APIs as well as created my own REST Api. Some of 
   
 3]. GIVEN MORE TIME, WHAT WOULD I IMPROVE ON?
   I love wowing my users with my designs so i would really like to improve on it.
-  I would also like to add more funtionality to the app, i would like to consume all the endpoints in the api to create a more interactive and robots web app. 
+  I would also like to add more funtionality to the app, i would like to consume all the endpoints in the api to create a more interactive and robust web app. 
