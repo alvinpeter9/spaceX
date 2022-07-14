@@ -16,10 +16,10 @@ fetch(url)
   }
   return response.json();
 })
-.then(data=>data.map(d => {
+.then(data=>data.map((d, index) => {
   if (d.date_local.slice(5, 7) == cMonth && (d.date_local.slice(8, 10) - cDay) < 4 ) {
     card.innerHTML += `
-    <div id=${d.id} class=\'card\'>
+    <div id=${index} class=\'card\'>
      <h2> ${d.name} </h2>
      <hr>
      <h3>Set to Launch &#10003;</h3>
@@ -33,7 +33,7 @@ fetch(url)
      ;
   } else {
     card.innerHTML += `
-    <div id=${d.id} class=\'card\'>
+    <div id=${index} class=\'card\'>
      <h2> ${d.name} </h2>
      <hr>
        <div class=\'card-text\'>
